@@ -29,7 +29,9 @@ public class mercenary_wars {
          for(int j = 0; j < B;j++) 
              if(i==0 || i==A-1 || j== 0|| j==B-1){
             mapa[i][j]= 'x';
-             }
+             }else{
+                 mapa[i][j]='T';
+                 }
       for(int i = 0 ; i < A ;i++)
       {
          for(int j = 0; j < B;j++)
